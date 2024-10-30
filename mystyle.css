@@ -430,15 +430,15 @@ box-shadow: 4px 3px 9px -1px rgba(0,0,0,0.59);
     
     .flextail {
         display: grid;
-        grid-template-columns: auto;
+        grid-template-columns: auto auto;
         background-color: #ededed;
     }
     
     .video {
-        width: 50%;
+        width: 80%;
         background-color: #ededed;
         position: relative;
-        left: 100px;
+        left: 60px;
         top: 20px;
         margin-bottom: 100px;
         border: solid 1px;
@@ -447,10 +447,9 @@ box-shadow: 4px 3px 9px -1px rgba(0,0,0,0.59);
     }
     
     .more {
-        padding-left: 250px;
-        margin-top: 0px;
+        margin-top: 60px;
         background-color: #ededed;
-        font-size: 18pt;
+        font-size: 12pt;
         font-weight: bold;
         font-family: Libre Baskerville;
         margin-bottom: 100px;
@@ -468,16 +467,16 @@ box-shadow: 4px 3px 9px -1px rgba(0,0,0,0.59);
     
     .myjourney {
         margin-left: 70px;
-        margin-top: 70px;
+        margin-top: 50px;
         background-color: #ededed;
-        font-size: 24pt;
+        font-size: 18pt;
         font-weight: lighter;
     }
     
     .myfuture {
         margin-left: 70px;
-        margin-top: 30px;
-        font-size: 24pt;
+        margin-top: 20px;
+        font-size: 18pt;
         font-weight: lighter;
     }
     
@@ -692,10 +691,10 @@ box-shadow: 4px 3px 9px -1px rgba(0,0,0,0.59);
     }
     
     .more {
-        padding-left: 140px;
+        padding-left: 60px;
         margin-top: 0px;
         background-color: #ededed;
-        font-size: 12pt;
+        font-size: 16pt;
         font-weight: bold;
         font-family: Libre Baskerville;
         margin-bottom: 100px;
