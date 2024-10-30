@@ -244,6 +244,251 @@ box-shadow: 4px 3px 9px -1px rgba(0,0,0,0.59);
     background-color: #ededed;
 }
 
+@media screen and (max-width: 1040px) {
+
+    .container {
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+    
+    .head {
+        margin-top: 40px;
+    }
+    
+    .headname {
+        padding: 10px;
+        margin-left: 20px;
+        background-color: #333333;
+        color: aliceblue;
+        font-family: Leckerli One;
+        font-size: 20pt;
+        border-radius: 5px;
+        -webkit-box-shadow: 4px 3px 9px -1px rgba(0,0,0,0.59); 
+    box-shadow: 4px 3px 9px -1px rgba(0,0,0,0.59);
+    }
+    
+    .contact {
+        float: right;
+        padding:10px;
+        position: relative;
+        bottom: 10px;
+        font-family: Leckerli One;
+        font-size: 20pt;
+    }
+    
+    .dropdown {
+        opacity: 0;
+        visibility: hidden;
+    }
+    
+    .bar:hover .dropdown{
+        opacity: 1;
+        visibility: visible;
+    }
+    
+    .colorbar {
+        color: #333333;
+    }
+
+    .flexbox_main {
+        display: grid;
+        grid-template-columns: 300px 1fr;
+        column-gap: 30px;
+        row-gap: 40px;
+        box-sizing: border-box;
+        margin: 50px;
+        margin-top: 80px;
+    }
+    
+    #mainpic {
+        grid-row: 1;
+        width: 300px;
+        border: solid 1px;
+        -webkit-box-shadow: 4px 2px 9px -1px rgba(0,0,0,0.7); 
+    box-shadow: 4px 2px 9px -1px rgba(0,0,0,0.7);
+    }
+
+    .maininfor {
+        padding-top: 40px;
+    }
+
+    .name {
+        font-size: 30pt ;
+        font-family: Libre Baskerville;
+    }
+    
+    .ser {
+        padding-left: 100px; 
+        font-size: 28pt ;
+        font-family: Libre Baskerville;
+    }
+    
+    .aboutme {
+        padding-left: 120px;
+        font-size: 13pt;
+        margin-top: 20px;
+        color: #333333;
+    }
+    
+    .infor_aboutme {
+        position: relative;
+        right: 20px;
+        margin: 30px;
+        font-size: 16pt;
+    }
+    
+    .maininfor2 {
+        grid-column: 1/3;
+    }
+
+    .infor {
+        position: relative;
+        top: 0px;
+        left: 30px;
+        margin: 30px;
+        font-size: 16pt;
+    }
+    
+    .text {
+        margin-top: 5px;
+    }
+    
+    .colortext {
+        font-weight: bolder;
+        color: #00208b;
+        font-family: Libre Baskerville;
+    }
+    
+    
+    .flexbox2 {
+        display: flex;
+    }
+    
+    .contactmain {
+        position: relative;
+        padding-left: 10px;
+        top: 0px;
+        left: 80px;
+        margin: 30px;
+        
+    }
+    
+    .contacttext {
+        color: black;
+        padding: 8px;
+        border-radius: 2px;
+        font-weight: bolder;
+        font-family: Libre Baskerville;
+        font-size: 16pt;
+        text-decoration: underline;
+    }
+    
+    
+    .Instagram {
+        position: relative;
+        right: 60px;
+        margin-top: 20px;
+        font-size: 14pt;
+        background-color: #333333;
+        color:aliceblue;
+        padding: 10px;
+        border-radius: 5px;
+        -webkit-box-shadow: 4px 3px 9px -1px rgba(0,0,0,0.59); 
+    box-shadow: 4px 3px 9px -1px rgba(0,0,0,0.59);
+    }
+    .colorig {
+        background-color: #333333;
+        color:aliceblue;
+    }
+    
+    .Gmail {
+        position: relative;
+        right: 60px;
+        margin-top: 14px;
+        background-color: #333333;
+        color:aliceblue;
+        padding: 10px;
+        border-radius: 5px;
+        -webkit-box-shadow: 4px 3px 9px -1px rgba(0,0,0,0.59); 
+    box-shadow: 4px 3px 9px -1px rgba(0,0,0,0.59);
+    }
+    
+    .background2 {
+        margin: 0;
+        padding: 0;
+        background-color: #ededed;
+    }
+    
+    .into {
+        padding-top: 100px;
+        padding-left: 60px;
+        padding-bottom: 50px;
+        font-size: 26pt;
+        font-family: Libre Baskerville;
+        background-color: #ededed;
+        font-weight: bold;
+    }
+    
+    .flextail {
+        display: grid;
+        grid-template-columns: auto;
+        background-color: #ededed;
+    }
+    
+    .video {
+        width: 50%;
+        background-color: #ededed;
+        position: relative;
+        left: 100px;
+        top: 20px;
+        margin-bottom: 100px;
+        border: solid 1px;
+        -webkit-box-shadow: 4px 2px 9px 0px rgba(0,0,0,0.7); 
+        box-shadow: 4px 2px 9px 0px rgba(0,0,0,0.7);
+    }
+    
+    .more {
+        padding-left: 250px;
+        margin-top: 0px;
+        background-color: #ededed;
+        font-size: 18pt;
+        font-weight: bold;
+        font-family: Libre Baskerville;
+        margin-bottom: 100px;
+    }
+    
+    .bordermore {
+        background-color: #333333;
+        padding: 15px;
+        margin-right: 30px;
+        border-radius: 10px;
+        color:aliceblue;
+    box-shadow: 4px 3px 9px -1px rgba(0,0,0,0.59);
+    
+    }
+    
+    .myjourney {
+        margin-left: 70px;
+        margin-top: 70px;
+        background-color: #ededed;
+        font-size: 24pt;
+        font-weight: lighter;
+    }
+    
+    .myfuture {
+        margin-left: 70px;
+        margin-top: 30px;
+        font-size: 24pt;
+        font-weight: lighter;
+    }
+    
+    .colorlink {
+        color:#333333;
+        background-color: #ededed;
+    }
+}
+
+
 /* My Journey */
 
 .container2 {
