@@ -1,0 +1,644 @@
+/* Font */
+@import url(https://fonts.googleapis.com/css2?family=Acme&family=Leckerli+One&family=Nerko+One&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Acme&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Leckerli+One&family=Nerko+One&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&family=Podkova:wght@400..800&display=swap);
+
+/* HomePages */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.head {
+    margin-top: 40px;
+}
+
+.headname {
+    padding: 10px;
+    margin-left: 20px;
+    background-color: #333333;
+    color: aliceblue;
+    font-family: Leckerli One;
+    font-size: 20pt;
+    border-radius: 5px;
+    -webkit-box-shadow: 4px 3px 9px -1px rgba(0,0,0,0.59); 
+box-shadow: 4px 3px 9px -1px rgba(0,0,0,0.59);
+}
+
+.contact {
+    float: right;
+    padding:10px;
+    position: relative;
+    bottom: 10px;
+    font-family: Leckerli One;
+    font-size: 25pt;
+}
+
+.dropdown {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.bar:hover .dropdown{
+    opacity: 1;
+    visibility: visible;
+}
+
+.colorbar {
+    color: #333333;
+}
+
+.flexbox_main {
+    display: flex;
+    box-sizing: border-box;
+    margin: 50px;
+    margin-top: 80px;
+}
+
+#mainpic {
+    display: block;
+    box-sizing: border-box;
+    width: 40%;
+    border: solid 1px;
+    -webkit-box-shadow: 4px 2px 9px -1px rgba(0,0,0,0.7); 
+box-shadow: 4px 2px 9px -1px rgba(0,0,0,0.7);
+}
+
+.maininfor {
+    display: block;
+    box-sizing: border-box;
+    margin-left: 80px;
+    width: 70%;
+    margin-top: 40px;
+}
+
+.name {
+    font-size: 30pt ;
+    font-family: Libre Baskerville;
+}
+
+.ser {
+    position: relative;
+    left: 100px;   
+    font-size: 28pt ;
+    font-family: Libre Baskerville;
+}
+
+.aboutme {
+    position: relative;
+    left: 300px;
+    font-size: 16pt;
+    margin-top: 20px;
+    color: #333333;
+}
+
+.infor_aboutme {
+    position: relative;
+    left: 50px;
+    margin: 40px;
+    font-size: 16pt;
+}
+
+.infor {
+    position: relative;
+    top: 20px;
+    left: 30px;
+    margin: 30px;
+    font-size: 16pt;
+}
+
+.text {
+    margin-top: 5px;
+}
+
+.colortext {
+    font-weight: bolder;
+    color: #00208b;
+    font-family: Libre Baskerville;
+}
+
+.flexbox2 {
+    display: flex;
+}
+
+.contactmain {
+    position: relative;
+    top: 20px;
+    left: 180px;
+    margin: 30px;
+    
+}
+
+.contacttext {
+    color: black;
+    padding: 8px;
+    border-radius: 2px;
+    font-weight: bolder;
+    font-family: Libre Baskerville;
+    font-size: 16pt;
+    text-decoration: underline;
+}
+
+
+.Instagram {
+    position: relative;
+    right: 60px;
+    margin-top: 20px;
+    font-size: 14pt;
+    background-color: #333333;
+    color:aliceblue;
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-box-shadow: 4px 3px 9px -1px rgba(0,0,0,0.59); 
+box-shadow: 4px 3px 9px -1px rgba(0,0,0,0.59);
+}
+.colorig {
+    background-color: #333333;
+    color:aliceblue;
+}
+
+.Gmail {
+    position: relative;
+    right: 60px;
+    margin-top: 14px;
+    background-color: #333333;
+    color:aliceblue;
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-box-shadow: 4px 3px 9px -1px rgba(0,0,0,0.59); 
+box-shadow: 4px 3px 9px -1px rgba(0,0,0,0.59);
+}
+
+.into {
+    padding-top: 100px;
+    padding-left: 270px;
+    padding-bottom: 50px;
+    font-size: 26pt;
+    font-family: Libre Baskerville;
+    background-color: #ededed;
+    font-weight: bold;
+}
+
+.flextail {
+    display: flex;
+    background-color: #ededed;
+}
+.video {
+    width: 50%;
+    background-color: #ededed;
+    position: relative;
+    left: 300px;
+    top: 20px;
+    border: solid 1px;
+    -webkit-box-shadow: 4px 2px 9px 0px rgba(0,0,0,0.7); 
+    box-shadow: 4px 2px 9px 0px rgba(0,0,0,0.7);
+}
+
+.vdo {
+    margin-bottom: 100px;
+    background-color: #ededed;
+}
+
+.more {
+    background-color: #ededed;
+    margin-left: 30px;
+    font-size: 18pt;
+    font-weight: bold;
+    font-family: Libre Baskerville;
+}
+
+.bordermore {
+    background-color: #333333;
+    padding: 15px;
+    border-radius: 10px;
+    color:aliceblue;
+box-shadow: 4px 3px 9px -1px rgba(0,0,0,0.59);
+
+}
+
+.myjourney {
+    margin-left: 70px;
+    margin-top: 70px;
+    background-color: #ededed;
+    font-size: 24pt;
+    font-weight: lighter;
+}
+
+.myfuture {
+    margin-left: 70px;
+    margin-top: 30px;
+    background-color: #ededed;
+    font-size: 24pt;
+    font-weight: lighter;
+}
+
+.moreinfo {
+    background-color: #ededed;
+}
+
+.colorlink {
+    color:#333333;
+    background-color: #ededed;
+}
+
+
+/* My Journey */
+
+.container2 {
+    max-width: 1860px;
+    margin: 0 auto;
+}
+
+.head2 {
+    margin-top: 40px;
+}
+
+.headname2 {
+    padding: 10px;
+    margin-left: 120px;
+    background-color: #333333;
+    color: aliceblue;
+    font-family: Leckerli One;
+    font-size: 20pt;
+    border-radius: 5px;
+    -webkit-box-shadow: 4px 3px 9px -1px rgba(0,0,0,0.59); 
+box-shadow: 4px 3px 9px -1px rgba(0,0,0,0.59);
+}
+
+.contact2 {
+    float: right;
+    padding:10px;
+    margin-right: 20px;
+    position: relative;
+    bottom: 10px;
+    right: 150px;;
+    font-family: Leckerli One;
+    font-size: 25pt;
+}
+
+.dropdown2 {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.bar2:hover .dropdown2{
+    opacity: 1;
+    visibility: visible;
+}
+
+.colorbar2 {
+    color: #333333;
+}
+
+.bordermain {
+    max-width: 100%;
+    background-color: #ededed;
+    z-index: 10;
+    padding-top: 1px;
+    padding-bottom: 40px;
+}
+
+.containerhead {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.myjourney2 {
+    margin-left: 80px;
+    margin-top: 50px;
+    font-size: 26pt;
+    font-family: Libre Baskerville;
+}
+
+.myjourneyinfo {
+    margin-left: 150px;
+    margin-top: 20px;
+    font-size: 16pt;
+}
+
+.containermain {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.main1 {
+    margin-left: 20px;
+    margin-top: 50px;
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+.flexboxmain1 {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.imgmain1 {
+    width: 70%;
+    position: relative;
+    left: 120px;
+    border: solid 1px ;
+}
+
+.textmain1 {
+    border: solid 1px;
+    width: 1700px;
+    padding: 30px;
+    padding-left: 40px;
+    position: relative;
+    right: 60px;
+    background-color: #f3f3f3;
+    -webkit-box-shadow: 1px 2px 8px 6px rgba(0,0,0,0.17); 
+box-shadow: 1px 2px 8px 6px rgba(0,0,0,0.17);
+}
+
+.infomain1 {
+    font-size: 16pt;
+    text-decoration: double underline;
+    font-family: Libre Baskerville;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.phase1 {
+    font-size: 14pt;
+    font-family: Podkova;
+    font-weight: 500;
+}
+
+.main2 {
+    margin-left: 20px;
+    margin-top: 50px;
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+.phase2 {
+    padding: 30px;
+    font-size: 14pt;
+    font-family: Podkova;
+    font-weight: 500;
+}
+
+.main3 {
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+.phase3 {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.phase3-1 {
+    border: solid 1px;
+    background-color: #333333;
+    padding: 30px;
+    color: aliceblue;
+    border-radius: 20px;
+    z-index: 2;
+    -webkit-box-shadow: 1px 2px 8px 4px rgba(0,0,0,0.23); 
+box-shadow: 1px 2px 8px 4px rgba(0,0,0,0.23);
+}
+
+.infomain3 {
+    font-size: 16pt;
+    text-decoration: double underline;
+    font-family: Libre Baskerville;
+    margin-bottom: 20px;
+    font-weight: 600;
+    padding-left: 15px;
+}
+
+.infomain3-1 {
+    font-size: 14pt;
+    font-family: Podkova;
+    font-weight: 500;
+    padding-left: 20px;
+}
+
+.phase3-2 {
+    border: solid 1px #ffffff;
+    padding: 30px;
+    padding-left: 80px;
+    padding-top:30px;
+    background-color: #f3f3f3;
+    position: relative;
+    right: 30px;
+    z-index: 1;
+    -webkit-box-shadow: 1px 2px 8px 4px rgba(0,0,0,0.23); 
+box-shadow: 1px 2px 8px 4px rgba(0,0,0,0.23);
+}
+
+.skillmain3 {
+    font-family: Libre Baskerville;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.listskill {
+    font-size: 14pt;
+    font-family: Podkova;
+}
+
+.gabskill {
+    padding-top: 10px;
+}
+
+.main4 {
+    margin-left: 20px;
+    margin-top: 50px;
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+.phase4 {
+    padding: 30px;
+    padding-bottom: 50px;
+    font-size: 14pt;
+    font-family: Podkova;
+    font-weight: 500;
+}
+
+.headend {
+    margin-top: 40px;
+}
+
+.containerend {
+    max-width: 1860px;
+    margin: 0 auto;
+}
+
+.headnameend {
+    padding: 10px;
+    margin-left: 120px;
+    background-color: #333333;
+    color: aliceblue;
+    font-family: Leckerli One;
+    font-size: 20pt;
+    border-radius: 5px;
+    -webkit-box-shadow: 4px 3px 9px -1px rgba(0,0,0,0.59); 
+box-shadow: 4px 3px 9px -1px rgba(0,0,0,0.59);
+}
+
+.contactend {
+    float: right;
+    padding:10px;
+    margin-right: 20px;
+    position: relative;
+    bottom: 10px;
+    right: 150px;
+    font-family: Leckerli One;
+    font-size: 25pt;
+}
+
+.dropdownend {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.barend:hover .dropdownend{
+    opacity: 1;
+    visibility: visible;
+}
+
+/* My Future */
+
+.head3 {
+    margin-top: 40px;
+}
+
+.container3 {
+    max-width: 1860px;
+    margin: 0 auto;
+}
+
+.headname3 {
+    padding: 10px;
+    margin-left: 120px;
+    background-color: #333333;
+    color: aliceblue;
+    font-family: Leckerli One;
+    font-size: 20pt;
+    border-radius: 5px;
+    -webkit-box-shadow: 4px 3px 9px -1px rgba(0,0,0,0.59); 
+box-shadow: 4px 3px 9px -1px rgba(0,0,0,0.59);
+}
+
+.contact3 {
+    float: right;
+    padding:10px;
+    margin-right: 20px;
+    position: relative;
+    bottom: 10px;
+    right: 150px;
+    font-family: Leckerli One;
+    font-size: 25pt;
+}
+
+.dropdown3 {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.bar3:hover .dropdown3{
+    opacity: 1;
+    visibility: visible;
+}
+
+.containermain3 {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.mainname {
+    margin-top: 60px;
+    margin-left: 40px;
+    font-size: 26pt;
+    font-family: Libre Baskerville;
+}
+
+.flexboxmain3 {
+    display: flex;
+}
+
+.main3phase1 {
+    margin-left: 100px;
+    margin-top: 40px;
+    font-family: Podkova;
+    font-size: 16pt;
+}
+
+.main3phase2 {
+    margin-left: 100px;
+    margin-top: 40px;
+    font-family: Podkova;
+    font-size: 16pt;
+}
+
+.main3phase3 {
+    margin-left: 100px;
+    margin-top: 40px;
+    font-family: Podkova;
+    font-size: 16pt;
+}
+
+.maingrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 60px;
+    margin-left: 100px;
+    grid-template-areas: 
+    'img1 img3'
+    'img2 img3'
+}
+
+.main3img1 {
+    width: 100%;
+    grid-area: img1;
+    border: solid 1px;
+    margin-bottom: 10px;
+    -webkit-box-shadow: 1px 2px 8px 3px rgba(0,0,0,0.23); 
+box-shadow: 1px 2px 8px 3px rgba(0,0,0,0.23);
+}
+
+.main3img2 {
+    width: 112%;
+    grid-area: img3;
+    border: solid 1px;
+    margin-left: 10px;
+    -webkit-box-shadow: 1px 2px 8px 3px rgba(0,0,0,0.23); 
+box-shadow: 1px 2px 8px 3px rgba(0,0,0,0.23);
+}
+
+.main3img3 {
+    width: 100%;
+    grid-area: img2;
+    border: solid 1px;
+    -webkit-box-shadow: 1px 2px 8px 3px rgba(0,0,0,0.23); 
+box-shadow: 1px 2px 8px 3px rgba(0,0,0,0.23);
+}
+
+.ig3 {
+    position: relative;
+    left: 100px;
+    bottom: 50px;
+}
+
+.color3 {
+    font-size: 14pt;
+    color: #333333;
+}
